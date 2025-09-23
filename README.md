@@ -1,11 +1,5 @@
 # ShelfScanner 📚
 
-**Never leave a bookstore empty-handed again!**
-
-Have you ever been at a book sale, library, or friend's house looking at shelves of books but didn't recognize any titles or authors? ShelfScanner solves the problem of figuring out what to read by using AI to help you discover what you'll enjoy.
-
-[ShelfScanner.io](https://shelfscanner.io/)
-
 ## What It Does
 
 📸 **Scan Shelves** → Take a photo of an entire bookshelf  
