@@ -8,7 +8,7 @@
  * 
  * Source available for reference and educational purposes only.
  * 
- * For licensing inquiries: shelfscannerapp@gmail.com
+ * For licensing inquiries: yoboii5536@gmail.com
  */
 
 import 'dotenv/config';

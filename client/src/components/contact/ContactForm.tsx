@@ -21,7 +21,7 @@ export default function ContactForm({ isOpen, onClose }: ContactFormProps) {
 
     try {
       // Create a mailto URL with the form data
-      const mailtoUrl = `mailto:shelfscannerapp@gmail.com?subject=ShelfScanner Contact: ${encodeURIComponent(name)}&body=${encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\n${message}`)}`;
+      const mailtoUrl = `mailto:yoboii5536@gmail.com?subject=ShelfScanner Contact: ${encodeURIComponent(name)}&body=${encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\n${message}`)}`;
       
       // Open the user's email client
       window.location.href = mailtoUrl;
@@ -40,7 +40,7 @@ export default function ContactForm({ isOpen, onClose }: ContactFormProps) {
     } catch {
       toast({
         title: "Failed to open email client",
-        description: "Please contact us directly at shelfscannerapp@gmail.com",
+        description: "Please contact us directly at yoboii5536@gmail.com",
         variant: "destructive"
       });
     } finally {
@@ -123,10 +123,10 @@ export default function ContactForm({ isOpen, onClose }: ContactFormProps) {
       <div className="border-t border-neutral-200 dark:border-neutral-700 p-4 text-center text-sm text-neutral-500 dark:text-neutral-400">
         You can also email us directly at{' '}
         <a 
-          href="mailto:shelfscannerapp@gmail.com" 
+          href="mailto:yoboii5536@gmail.com" 
           className="text-violet-600 dark:text-violet-400 hover:text-violet-700 dark:hover:text-violet-300"
         >
-          shelfscannerapp@gmail.com
+          yoboii5536@gmail.com
         </a>
       </div>
     </div>
